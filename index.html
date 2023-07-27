@@ -25,12 +25,14 @@
             }
         }
     </script>
-
-     
+    <link rel="shortcut icon" href="./images/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 
 </head>
 <body>
-    <header class=" md:container md:mx-auto py-5 space-y-10 ">
+    <header class=" md:container md:mx-auto py-5 space-y-10  ">
         <!-- Nab section -->
     <nav class="">
   <div class="navbar md:bg-primary-bg text-white flex-row-reverse md:flex-row justify-around md:justify-between rounded-[150px] p-5 ">
@@ -77,7 +79,7 @@
        
     <!--    banner section -->
        <section class="" >
-        <div class="carousel w-full md:mx-auto h-[600px] md:h-[740px] overflow-hidden ">
+        <div class="carousel w-full md:mx-auto h-[600px] md:h-[840px] overflow-hidden relative">
             <div id="slide1" class="carousel-item relative w-full  ">
                 <div class="hero min-h-screen"
                     style="background-image: url(./images/banner1.png); ">
@@ -148,6 +150,26 @@
                 </div>
             </div>
         </div>
+       </section> 
+       <section class="w-3/4 mx-auto p-14 relative bottom-36 bg-white hidden lg:block">
+        <div class="flex justify-around text-center   gap-10">
+            <div><img src="./images/fruit1.png" alt="">
+            <h4>Red Grapes</h4>
+            </div>
+            <div> <img src="./images/fruit2.png" alt="">
+            <h4>Orange</h4>
+            </div>
+            <div><img src="./images/fruit3.png" alt="">
+            <h4>Mango</h4>
+            </div>
+            <div>
+                <img src="./images/fruit4.png" alt="">
+                <h4>Strawberry</h4>
+            </div>
+            <div><img src="./images/fruit5.png" alt="">
+            <h4>Pomegranate</h4>
+            </div>
+        </div>
        </section>
     </header>
     <main class="md:container md:mx-auto">
@@ -157,9 +179,9 @@
                 <div class=" gap-5 my-4">
                     <h1 class="text-5xl font-extrabold text-start my-6">Deal of the day</h1>
                     <p class="text-start">Contrary to popular belief, is not simply random text. It has roots in a piece of
-                        <br>classical Latin literature from 45 BC, making it over 2000 years old.</p>
+                    <br>classical Latin literature from 45 BC, making it over 2000 years old.</p>
                 </div>
-                <div class="">
+                <div class="font-bold">
                     <div class="flex gap-5">
                         <div>
                             <span class="countdown font-mono text-4xl">
@@ -207,7 +229,7 @@
                             <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                         </div>
                         <!-- model -->
-                        <button class="text-center text-[#F85559] " onclick="my_modal_1.showModal()">Details</button>
+                        <button class="text-center text-primary-bg " onclick="my_modal_1.showModal()">Details</button>
                         <dialog id="my_modal_1" class="modal modal-bottom sm:modal-middle ">
                             <form method="dialog" class="modal-box">
                                 <div class="card my-4">
@@ -252,7 +274,7 @@
                             <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                         </div>
                         <!-- model -->
-                        <button class="text-center text-[#F85559] " onclick="my_modal_2.showModal()">Details</button>
+                        <button class="text-center text-primary-bg " onclick="my_modal_2.showModal()">Details</button>
                         <dialog id="my_modal_2" class="modal modal-bottom sm:modal-middle ">
                             <form method="dialog" class="modal-box">
                                 <div class="card my-4">
@@ -297,7 +319,7 @@
                             <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                         </div>
                         <!-- model -->
-                        <button class="text-center text-[#F85559] " onclick="my_modal_3.showModal()">Details</button>
+                        <button class="text-center text-primary-bg " onclick="my_modal_3.showModal()">Details</button>
                         <dialog id="my_modal_3" class="modal modal-bottom sm:modal-middle ">
                             <form method="dialog" class="modal-box">
                                 <div class="card my-4">
@@ -342,7 +364,7 @@
                             <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                         </div>
                         <!-- model -->
-                        <button class="text-center text-[#F85559] " onclick="my_modal_4.showModal()">Details</button>
+                        <button class="text-center text-primary-bg " onclick="my_modal_4.showModal()">Details</button>
                         <dialog id="my_modal_4" class="modal modal-bottom sm:modal-middle ">
                             <form method="dialog" class="modal-box">
                                 <div class="card my-4">
@@ -373,12 +395,111 @@
                     </div>
                 </div>
             </div>
-            <button class="btn text-center bg-primary-bg text-white hover:text-white hover:bg-red-600">Show All</button>
-        
-        
+            <button class="btn text-center bg-primary-bg text-white hover:text-white hover:bg-red-600">Show All</button>       
         </section>
-    </main>
-   
+     <section> 
 
+                                <!-- Team section -->
+        <div class="hero lg:h-[680px] text-center my-24" style="background-image: url('./images/banner1.png');">
+            <div class="hero-overlay bg-opacity-60"></div>
+            <div class="hero-content text-center text-neutral-content mt-100">
+                <div class="">
+                    <h1 class="mb-5 text-5xl font-bold">Meet the team section</h1>
+                    <p class="lg:max-w-3xl mx-auto mb-5">Contrary to popular belief, is not simply random text. It has roots in
+                        a piece of classical Latin literature from 45 BC, making it over 2000 years old.</p>
+                    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 items-center lg:gap-20">
+                        <div class="card w-[200px] mx-auto">
+                            <figure class="px-10 pt-10">
+                                <img src="./images/member1.png" alt="Shoes" class="rounded-xl" />
+                            </figure>
+                            <div class="card-body items-center text-center">
+                                <h2 class="card-title">Awlad Hossain</h2>
+                                <p>Fruits Expert</p>
+                                <div class="flex gap-3 text-primary-bg rounded-full">
+                                    <i class="fa-brands fa-facebook"></i>
+                                    <i class="fa-brands fa-twitter"></i>
+                                    <i class="fa-brands fa-linkedin"></i>
+                                </div>
+                            </div>
+        
+                        </div>
+                        <div class="card w-[200px] mx-auto">
+                            <figure class="px-10 pt-10">
+                                <img src="./images/member2.png" alt="Shoes" class="rounded-xl" />
+                            </figure>
+                            <div class="card-body items-center text-center">
+                                <h2 class="card-title">Awlad Hossain</h2>
+                                <p>Fruits Expert</p>
+                                <div class="flex gap-3 text-primary-bg rounded-full">
+                                    <i class="fa-brands fa-facebook"></i>
+                                    <i class="fa-brands fa-twitter"></i>
+                                    <i class="fa-brands fa-linkedin"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card w-[200px] mx-auto">
+                            <figure class="px-10 pt-10">
+                                <img src="./images/member3.png" alt="Shoes" class="rounded-xl" />
+                            </figure>
+                            <div class="card-body items-center text-center">
+                                <h2 class="card-title">Awlad Hossain</h2>
+                                <p>Fruits Expert</p>
+                                <div class="flex gap-3 text-primary-bg rounded-full">
+                                    <i class="fa-brands fa-facebook"></i>
+                                    <i class="fa-brands fa-twitter"></i>
+                                    <i class="fa-brands fa-linkedin"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card w-[200px] mx-auto">
+                            <figure class="px-10 pt-10">
+                                <img src="./images/member4.png" alt="Shoes" class="rounded-xl" />
+                            </figure>
+                            <div class="card-body items-center text-center">
+                                <h2 class="card-title">Awlad Hossain</h2>
+                                <p>Fruits Expert</p>
+                                <div class="flex gap-3 text-primary-bg rounded-full">
+                                    <i class="fa-brands fa-facebook"></i>
+                                    <i class="fa-brands fa-twitter"></i>
+                                    <i class="fa-brands fa-linkedin"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+     </section>
+    </main>
+             <!-- footer section -->
+    <footer class="footer footer-center p-4 md:p-12 bg-[#121212] text-white">
+        <div class="flex justify-center items-center">
+            <img src="./images/logo.png" alt="">
+            <p class="text-4xl font-bold">
+                Fruits Burst
+            </p>
+        </div>
+        <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-flow-col md:grid-flow-col gap-4 mb-4 text-lg font-medium no-underline decoration-[#50c7cf] ">
+            <a class="link link-hover mx-5 list-none">Home</a>
+            <a class="link link-hover mx-5">About us</a>
+            <a class="link link-hover mx-5">Shop</a>
+            <a class="link link-hover mx-5">All Fruits</a>
+            <a class="link link-hover mx-5">Support</a>
+            <a class="link link-hover mx-5">My Account</a>
+        </div>
+        <div>
+            <div class="grid grid-cols-3 md:grid-flow-col gap-7 justify-evenly items-center">
+    
+                <i class="fa-brands fa-twitter text-[#0787d7] text-3xl rounded-xl"></i>
+                <i class="fa-brands fa-facebook text-[#0055ff] text-3xl rounded-xl"></i>
+                <i class="fa-brands fa-youtube text-[#fc2020] text-3xl rounded-xl"></i>
+                <i class="fa-brands fa-linkedin text-[#fcfdfe] text-3xl rounded-xl"></i>
+                <i class="fa-brands fa-instagram text-[#8a07be] text-3xl rounded-xl"></i>
+                <i class="fa-brands fa-apple text-[#827a7a] text-3xl rounded-xl"></i>
+    
+            </div>
+        </div>
+    </footer>
+       
 </body>
 </html>  
